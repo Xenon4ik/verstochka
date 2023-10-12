@@ -161,7 +161,7 @@ header{
     grid-column: 2/4;
 }
 .home{
-    background: rgba(131, 179, 211, 0.12) url(img/house.svg) no-repeat 50% 25%;
+    background: rgba(131, 179, 211, 0.12) url(img/house.svg) no-repeat 50% 20%;
     grid-column: 1/2;
     display:flex;
     flex-direction: column;
@@ -169,7 +169,7 @@ header{
     align-items: center;
 }
 .food{
-    background: rgba(255, 255, 255, 1) url(img/burger.svg) no-repeat 50% 25%;
+    background: rgba(255, 255, 255, 1) url(img/burger.svg) no-repeat 50% 20%;
     grid-column: 2/3;
     display:flex;
     flex-direction: column;
@@ -178,7 +178,7 @@ header{
     text-align: center;
 }
 .souvenirs{
-    background:rgba(131, 179, 211, 0.12) url(img/present.svg) no-repeat 50% 25%;;
+    background:rgba(131, 179, 211, 0.12) url(img/present.svg) no-repeat 50% 20%;;
     grid-column: 3/4;
     display:flex;
     flex-direction: column;
@@ -237,4 +237,75 @@ header{
 }
 .reason-number, .reason-description{
     font-weight:normal;
+}
+.booking{
+    height: 460px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.booking-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.booking-text{
+    display: block;
+    width: 720px;
+    font-weight: normal;
+    font-size: 22px;
+    margin: 0 0 56px 0;
+
+}
+.booking-title{
+    font-size:30px;
+    text-transform: uppercase;
+    margin:0 0 29px 0;
+}
+.search-hotels{
+    color:white;
+    font-size:20px;
+    background-color: #756257;
+    text-transform: uppercase;
+    border:0;
+    border-radius: 10px;
+    height:60px;
+    width:574px;
+}
+.mailing{
+    height:450px;
+    background-image: url(img/background_2.jpg);
+    background-size: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mailing-wrapper{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mailimg-title{
+    color:white;
+     font-size: 30px;
+     text-transform: uppercase;
+}
+.mailing-text{
+    color:white;
+    font-size:22px;
+    font-weight: 400;
+    text-align: center;
+}
+footer{
+    height:120px
+}
+.twiter{
+    background-image: url(img/twitter.svg);
 }
